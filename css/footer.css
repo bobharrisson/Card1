@@ -1,0 +1,56 @@
+/* ########## RODA PÉ ########## */
+
+.footer
+{
+    
+    line-height: 3px;
+    font-size: 0.6em;
+    width: 100%;
+    height: 75px;
+    background-color: #333;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    align-items: center;
+    display: inline-block;
+}
+.footer h2
+{
+    color:#f3cd18;
+    text-align: center;
+}
+.footer h3
+{
+    color:#7e7e7e;
+    text-align: center;
+}
+.footer h4
+{
+    color:#a3a2a2;
+    text-align: center;
+}
+
+
+
+/* ########## BOTÃO VOLTAR AO TOPO ########## */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 80px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.btn::after {
+    content: "↑";
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 0.5ms;
+}
+.btn:hover::after {
+    margin-top:-8px;
+}
